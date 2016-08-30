@@ -9,6 +9,8 @@ import { Provider } from 'react-redux'
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 
+import HomeContainer from './containers/HomeContainer';
+
 const history = syncHistoryWithStore(browserHistory, store)
 const PlaceHolder = () => (
   <div className="wrapper">
@@ -21,7 +23,7 @@ ReactDOM.render(
     { /* Tell the Router to use our enhanced history */ }
     <Router history={history}>
       <Route path="/" component={App}>
-        <IndexRoute component={PlaceHolder}/>
+        <IndexRoute component={HomeContainer}/>
         <Route path="/agenda" component={PlaceHolder}/>
         <Route path="/cursussen" component={PlaceHolder}>
           <Route path="/cursussen/1" component={PlaceHolder}/>

@@ -1,12 +1,35 @@
-:global
-  #root
-    background-color: #e2e1e0
-    font-size: 16px
+@import './styles/variables.sass'
 
-  .wrapper
-    margin: auto
-    max-width: 600px
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
-    background-color: white
-    padding: 1rem 2rem
-    min-height: 40vh
+:global
+    #root
+        background-color: #e2e1e0
+        font-size: 16px
+
+    .wrapper
+        margin: auto
+        max-width: 600px
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+        background-color: white
+        padding: 1rem 2rem 3rem
+        min-height: 40vh
+
+    p
+        line-height: 1.5rem
+
+    .list
+        list-style: circle
+
+        li
+            line-height: 1.5rem
+        // padding: 0
+        // margin: 0
+
+        // li
+        //     line-height: 1.5rem
+        //     padding-left: 1rem
+        //     text-indent: -.7rem
+
+        //     &:before
+        //         font-size: 2rem
+        //         content: '• '
+        //         color: $blue-1

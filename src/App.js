@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import './global.sass';
 import Navigation from './components/Navigation';
 import SlideShow from './components/SlideShow';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Navigation/>
         <SlideShow/>
         {this.props.children}
+        <Footer/>
       </div>
     );
   }

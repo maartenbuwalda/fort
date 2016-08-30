@@ -9,6 +9,29 @@
   position: relative
   overflow: hidden
 
+.slideshow-labels
+  position: absolute
+  width: 100%
+  bottom: 7rem
+  display: flex;
+  justify-content: space-around;
+
+  .label
+    position: absolute
+    opacity: 0
+    transition: all .5s
+    background-color: white
+    padding: 1rem
+    text-align: center
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+
+    &#active
+      opacity: 1
+
+    a
+      text-decoration: none
+      color: black
+
 .slide
   position: absolute
   display: block
@@ -18,9 +41,10 @@
   background-repeat: no-repeat
   background-size: cover
   opacity: 0
+  transition: all .5s
 
-#active
-  opacity: 1
+  &#active
+    opacity: 1
 
 .slideshow-navigation
   position: absolute
@@ -38,3 +62,8 @@
   margin: 0 .25rem
   background-color: red
   border-radius: .5rem
+  cursor: pointer
+  transition: all .5s
+
+  &#active
+    background-color: yellow

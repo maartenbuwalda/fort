@@ -11,7 +11,9 @@ import { syncHistoryWithStore } from 'react-router-redux'
 
 const history = syncHistoryWithStore(browserHistory, store)
 const PlaceHolder = () => (
-  <h1>Text</h1>
+  <div className="wrapper">
+    <h1>Text</h1>
+  </div>
 )
 
 ReactDOM.render(

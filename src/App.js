@@ -7,6 +7,9 @@ import SlideShow from './components/SlideShow';
 import Footer from './components/Footer';
 
 class App extends Component {
+  willTransitionTo(transition, params, query, callback){
+    console.log('test')
+  }
   render() {
     return (
       <div className="App">

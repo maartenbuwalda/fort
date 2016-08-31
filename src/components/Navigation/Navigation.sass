@@ -1,23 +1,51 @@
 @import '../../styles/variables.sass'
 
+#mobile-logo
+  display: block
+
+#logo
+  display: none
+
+.mobile-menu-button
+  background-color: $blue-1
+  width: 2rem
+  height: 2rem
+  position: absolute
+  top: .5rem
+  right: 1rem
+
+.mobile-menu-checkbox
+  display: none
+
+  &:checked
+
+    &+ .navigation
+      max-height: 40rem
+      overflow: auto
+
 .navigation
+  max-height: 0
+  overflow: hidden
   position: relative
   z-index: 1
-  width: 100%
-  height: 4rem
   display: flex
   justify-content: center
   background-color: rgba(255, 255, 255, .5)
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  flex-flow: column
+  transition: all .5s
+
+.navigation-wrapper
+  position: relative
+  z-index: 999
 
 .main-nav_link
   display: block
-  padding: 1.5rem 1.5rem
   transition: all .3s
   color: $blue-2
   text-decoration: none
   background-color: $white
-
+  padding: 1rem 1rem
 
   &:hover
     color: $blue-2
@@ -26,3 +54,25 @@
   &.active
     color: $white
     background-color: $blue-3
+
+@media screen and (min-width: 480px)
+  .mobile-menu-button
+    display: none
+
+  #mobile-logo
+    display: none
+
+  #logo
+    display: block
+
+  .navigation
+    max-height: 40rem
+    overflow: auto
+    width: 100%
+    height: 4rem
+    flex-flow: row
+
+  .main-nav_link
+    padding: 1.5rem 1.5rem
+
+

@@ -9,33 +9,28 @@ import img1 from '../../assets/images/1.gif'
 // Move to reducer
 const images = [
   {
-    img: "http://placehold.it/1080x400",
-    text: "lfkahs salfkh saflkh sa",
+    img: "http://maartenbuwalda.com/go-fort/1.jpeg",
+    text: "Hallo",
     link: ""
   },
   {
-    img: "http://placehold.it/1022x411",
-    text: "flsakhfksah lkhaskj fha",
+    img: "http://maartenbuwalda.com/go-fort/2.jpeg",
+    text: "Bla bla bla",
     link: ""
   },
   {
-    img: "http://placehold.it/910x300",
+    img: "http://maartenbuwalda.com/go-fort/3.jpeg",
     text: "f asf asfsa fsaf",
     link: ""
   },
   {
-    img: "http://placehold.it/1200x500",
+    img: "http://maartenbuwalda.com/go-fort/4.jpeg",
     text: " asf asf safs afas ",
     link: ""
   },
   {
-    img: "http://placehold.it/1110x200",
+    img: "http://maartenbuwalda.com/go-fort/5.jpeg",
     text: " asf asf saf safs",
-    link: ""
-  },
-  {
-    img: "http://placehold.it/1180x300",
-    text: "fasfa",
     link: ""
   }
 ]

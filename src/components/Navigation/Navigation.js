@@ -19,6 +19,7 @@ class Navigation extends React.Component {
         <label className={styles['mobile-menu-button']} htmlFor='hidden-checkbox'></label>
         <input className={styles['mobile-menu-checkbox']} id='hidden-checkbox' type="checkbox"/>
         <nav className={styles['navigation']}>
+          <IndexLink onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to=''>Home</IndexLink>
           <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='agenda'>Agenda</Link>
           <DropdownMenuItem onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} index='/cursussen' label='Cursussen'>
             <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/1'>Cursus 1</Link>

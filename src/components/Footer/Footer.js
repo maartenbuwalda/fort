@@ -5,7 +5,7 @@ import styles from './Footer.sass';
 class Footer extends React.Component {
   render() {
     return (
-      <footer className={styles['footer']}>Footer</footer>
+      <footer className={styles['footer']}></footer>
     )
   }
 }

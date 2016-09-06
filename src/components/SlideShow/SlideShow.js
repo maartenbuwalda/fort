@@ -10,27 +10,27 @@ import img1 from '../../assets/images/1.gif'
 const images = [
   {
     img: "http://maartenbuwalda.com/go-fort/1.jpeg",
-    text: "Hallo",
+    text: "Tekstje over foto 1",
     link: ""
   },
   {
     img: "http://maartenbuwalda.com/go-fort/2.jpeg",
-    text: "Bla bla bla",
+    text: "Tekstje over foto 2",
     link: ""
   },
   {
     img: "http://maartenbuwalda.com/go-fort/3.jpeg",
-    text: "f asf asfsa fsaf",
+    text: "Tekstje over foto 3",
     link: ""
   },
   {
     img: "http://maartenbuwalda.com/go-fort/4.jpeg",
-    text: " asf asf safs afas ",
+    text: "Tekstje over foto 4",
     link: ""
   },
   {
     img: "http://maartenbuwalda.com/go-fort/5.jpeg",
-    text: " asf asf saf safs",
+    text: "Tekstje over foto 5",
     link: ""
   }
 ]

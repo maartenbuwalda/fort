@@ -11,27 +11,22 @@ const images = [
   {
     img: "http://maartenbuwalda.com/go-fort/1.jpeg",
     text: "Tekstje over foto 1",
-    link: ""
+    link: "/cursussen/teambuilding"
   },
   {
     img: "http://maartenbuwalda.com/go-fort/2.jpeg",
     text: "Tekstje over foto 2",
-    link: ""
+    link: "/cursussen/praktisch-leiderschap"
   },
   {
     img: "http://maartenbuwalda.com/go-fort/3.jpeg",
     text: "Tekstje over foto 3",
-    link: ""
+    link: "/cursussen/motiverende-gespreksvoering"
   },
   {
     img: "http://maartenbuwalda.com/go-fort/4.jpeg",
     text: "Tekstje over foto 4",
-    link: ""
-  },
-  {
-    img: "http://maartenbuwalda.com/go-fort/5.jpeg",
-    text: "Tekstje over foto 5",
-    link: ""
+    link: "/cursussen/omgaan-met-agressie"
   }
 ]
 

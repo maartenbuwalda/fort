@@ -1,10 +1,3 @@
-@media screen and (min-width: 480px)
-
-  .dropdown
-
-    >.main-nav_link
-      padding-bottom: 1.30rem
-
 .dropdown
   >.main-nav_link
   &:hover
@@ -14,6 +7,7 @@
       overflow: auto
 
 .dropdown-menu
+  position: relative
   padding: 0
   margin: 0
   opacity: 0
@@ -21,3 +15,12 @@
   overflow: hidden
   transition: all .5s
 
+@media screen and (min-width: 480px)
+
+  .dropdown
+
+    >.main-nav_link
+      padding-bottom: 1.30rem
+
+  .dropdown-menu
+    position: absolute

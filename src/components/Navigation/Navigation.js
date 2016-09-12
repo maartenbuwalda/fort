@@ -10,6 +10,7 @@ class Navigation extends React.Component {
 
   _handleClick() {
     document.getElementById('hidden-checkbox').checked = false;
+    window.scrollTo(0, 520);
   }
 
   render() {
@@ -22,9 +23,10 @@ class Navigation extends React.Component {
           <IndexLink onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to=''>Home</IndexLink>
           <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='agenda'>Agenda</Link>
           <DropdownMenuItem onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} index='/cursussen' label='Cursussen'>
-            <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/1'>Cursus 1</Link>
-            <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/2'>Cursus 2</Link>
-            <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/3'>Cursus 3</Link>
+            <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/teambuilding'>Teambuilding</Link>
+            <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/praktisch-leiderschap'>Praktisch leiderschap</Link>
+            <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/motiverende-gespreksvoering'>Motiverende gespreksvoering</Link>
+            <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/omgaan-met-agressie'>Omgaan met agressie</Link>
           </DropdownMenuItem>
 
           <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='seminars'>Seminars</Link>

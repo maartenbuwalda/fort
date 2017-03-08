@@ -29,9 +29,9 @@ class Navigation extends React.Component {
             <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/cursussen/omgaan-met-agressie'>Omgaan met agressie</Link>
           </DropdownMenuItem>
 
-          <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='seminars'>Seminars</Link>
-          <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='locatie-verhuur'>Locatie verhuur</Link>
-          <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='offerte-aanvraag'>Offerte aanvraag</Link>
+          <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/seminars'>Seminars</Link>
+          <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/locatie-verhuur'>Locatie verhuur</Link>
+          <Link onClick={this._handleClick} activeClassName={styles['active']} className={styles['main-nav_link']} to='/offerte-aanvraag'>Offerte aanvraag</Link>
         </nav>
       </div>
     )

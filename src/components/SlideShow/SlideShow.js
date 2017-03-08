@@ -14,11 +14,6 @@ const images = [
     link: "/cursussen/teambuilding"
   },
   {
-    img: "http://maartenbuwalda.com/go-fort/2.jpeg",
-    text: "Tekstje over foto 2",
-    link: "/cursussen/praktisch-leiderschap"
-  },
-  {
     img: "http://maartenbuwalda.com/go-fort/3.jpeg",
     text: "Tekstje over foto 3",
     link: "/cursussen/motiverende-gespreksvoering"
@@ -27,7 +22,27 @@ const images = [
     img: "http://maartenbuwalda.com/go-fort/4.jpeg",
     text: "Tekstje over foto 4",
     link: "/cursussen/omgaan-met-agressie"
-  }
+  },
+  {
+    img: "http://maartenbuwalda.com/go-fort/6.jpg",
+    text: "Tekstje over foto 2",
+    link: "/cursussen/praktisch-leiderschap"
+  },
+  {
+    img: "http://maartenbuwalda.com/go-fort/7.jpg",
+    text: "Tekstje over foto 2",
+    link: "/cursussen/praktisch-leiderschap"
+  },
+  {
+    img: "http://maartenbuwalda.com/go-fort/8.jpg",
+    text: "Tekstje over foto 2",
+    link: "/cursussen/praktisch-leiderschap"
+  },
+  {
+    img: "http://maartenbuwalda.com/go-fort/9.jpg",
+    text: "Tekstje over foto 2",
+    link: "/cursussen/praktisch-leiderschap"
+  },
 ]
 
 class SlideShow extends React.Component {

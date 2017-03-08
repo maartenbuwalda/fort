@@ -8,10 +8,10 @@ class HomeContainer extends Component {
         <h2>Waarom</h2>
         <p>Heeft uw team aansturing, verandering of stimulans nodig? Wij hebben daar een beproefde aanpak voor. Ons instructiekader spiegelt het huidige gedrag van uw team en brengt knel- en verbeterpunten in beeld. Op ontspannen actieve wijze koppelen we binnen- en buitenprogramma's aan elkaar. </p>
         <p>Aspecten als leiderschap, samenwerking en communicatie komen naar voren. Kies uw doel dat u wilt bereiken met uw team;  ons instructieteam spiegelt het huidige gedrag en maakt zo verandering binnen uw team mogelijk. Samen met onze trainers,  specialisten van het Korps mariniers zorgen wij voor teambuilding met meerwaarde!</p>
-        
+
         <h2>Cursusprogramma</h2>
         <p>Hoe wordt een groep een team, wat zijn de factoren die een succesvol team beïnvloeden, feedback, teamdynamiek, hard werken, hard ontspannen? </p>
-        
+
         <h2>Teamwensen.</h2>
         <p>Aan bod komen onderwerpen als:</p>
         <ul>
@@ -32,10 +32,9 @@ class HomeContainer extends Component {
 
         <h2>Aanmelden en inschrijven</h2>
         <p>Kleine groepen (tot 12 personen)  en grote groepen (tot 30 personen)</p>
-        
-        <h2>Contactpersonen:</h2>
-        <p>John Buwalda  06-23313523</p>
-        <p>Yoeri van der Lugt  023-7370161</p>
+
+        <h2>Contactpersoon</h2>
+        <p>John Buwalda: <a href="mailto:info@go-fort.nl">info@go-fort.nl</a></p>
       </div>
     );
   }

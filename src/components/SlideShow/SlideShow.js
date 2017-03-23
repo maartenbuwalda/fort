@@ -9,12 +9,17 @@ import img1 from '../../assets/images/1.gif'
 // Move to reducer
 const images = [
   {
-    img: "http://maartenbuwalda.com/go-fort/1.jpeg",
+    img: "http://maartenbuwalda.com/go-fort/8.jpg",
+    text: "Tekstje over foto 2",
+    link: "/cursussen/praktisch-leiderschap"
+  },
+  {
+    img: "http://maartenbuwalda.com/go-fort/10.jpg",
     text: "Tekstje over foto 1",
     link: "/cursussen/teambuilding"
   },
   {
-    img: "http://maartenbuwalda.com/go-fort/3.jpeg",
+    img: "http://maartenbuwalda.com/go-fort/11.jpg",
     text: "Tekstje over foto 3",
     link: "/cursussen/motiverende-gespreksvoering"
   },
@@ -34,12 +39,17 @@ const images = [
     link: "/cursussen/praktisch-leiderschap"
   },
   {
-    img: "http://maartenbuwalda.com/go-fort/8.jpg",
+    img: "http://maartenbuwalda.com/go-fort/9.jpg",
     text: "Tekstje over foto 2",
     link: "/cursussen/praktisch-leiderschap"
   },
   {
-    img: "http://maartenbuwalda.com/go-fort/9.jpg",
+    img: "http://maartenbuwalda.com/go-fort/12.jpg",
+    text: "Tekstje over foto 2",
+    link: "/cursussen/praktisch-leiderschap"
+  },
+  {
+    img: "http://maartenbuwalda.com/go-fort/13.jpg",
     text: "Tekstje over foto 2",
     link: "/cursussen/praktisch-leiderschap"
   },
@@ -78,7 +88,7 @@ class SlideShow extends React.Component {
         index++
         setId()
       }
-    }, 5000);
+    }, 7000);
 
     setId();
   }

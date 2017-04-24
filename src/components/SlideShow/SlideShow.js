@@ -14,42 +14,22 @@ const images = [
     link: "/cursussen/praktisch-leiderschap"
   },
   {
-    img: "http://maartenbuwalda.com/go-fort/10.jpg",
-    text: "Tekstje over foto 1",
-    link: "/cursussen/teambuilding"
-  },
-  {
-    img: "http://maartenbuwalda.com/go-fort/11.jpg",
-    text: "Tekstje over foto 3",
-    link: "/cursussen/motiverende-gespreksvoering"
-  },
-  {
-    img: "http://maartenbuwalda.com/go-fort/4.jpeg",
-    text: "Tekstje over foto 4",
-    link: "/cursussen/omgaan-met-agressie"
-  },
-  {
     img: "http://maartenbuwalda.com/go-fort/6.jpg",
     text: "Tekstje over foto 2",
     link: "/cursussen/praktisch-leiderschap"
   },
   {
-    img: "http://maartenbuwalda.com/go-fort/7.jpg",
-    text: "Tekstje over foto 2",
-    link: "/cursussen/praktisch-leiderschap"
-  },
-  {
-    img: "http://maartenbuwalda.com/go-fort/9.jpg",
-    text: "Tekstje over foto 2",
-    link: "/cursussen/praktisch-leiderschap"
-  },
-  {
-    img: "http://maartenbuwalda.com/go-fort/12.jpg",
+    img: "http://maartenbuwalda.com/go-fort/14.jpg",
     text: "Tekstje over foto 2",
     link: "/cursussen/praktisch-leiderschap"
   },
   {
     img: "http://maartenbuwalda.com/go-fort/13.jpg",
+    text: "Tekstje over foto 2",
+    link: "/cursussen/praktisch-leiderschap"
+  },
+  {
+    img: "http://maartenbuwalda.com/go-fort/15.jpg",
     text: "Tekstje over foto 2",
     link: "/cursussen/praktisch-leiderschap"
   },

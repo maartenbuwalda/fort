@@ -10,6 +10,8 @@ class MGVContainer extends Component {
         <p>Doel van de methode motiverende gespreksvoering is het op gang brengen van gedragsverandering bij cliënten, via het ontwikkelen van demotivatie.</p>
         <p>De doelgroep van de methode bestaat uit cliënten die gedragsverandering overwegen of voor wie gedragsverandering kan bijdragen aan het behalen van doelen. In deze cursus gaat het vooral om toepassing in de sociale sector, zoals bij activering, de maatschappelijke opvang en het maatschappelijk werk.</p>
 
+        <div className='page-image gespreksvoering'/>
+
       	<h2>De aanpak</h2>
         <p>De aanpak van Motiverende gespreksvoering is in twee fasen ingedeeld. In de eerste fase staat het ontwikkelen van de motivatie van de cliënt om te veranderen centraal. Dit wordt gedaan met behulp van verschillende gesprekstechnieken. Er is in deze fase vooral aandacht voor het verkennen van de ambivalentie van de cliënt. (die aan de ene kant wel maar tegelijk ook niet wil veranderen) en het uitlokken van taal gericht op verandering bij de cliënt. Als de motivatie genoeg ontwikkeld is, gaat de hulpverlener over naar de tweede fase. De tweede fase richt zich op het versterken van de betrokkenheid bij veranderingen en op het ontwikkelen van een plan om verandering te realiseren. De cliënt wordt door het stellen van vragen gestimuleerd zijn of haar eigen wensen en plannen te bedenken. Een van de belangrijkste elementen is de coöperatieve aard van de relatie tussen hulpverlener en cliënt.</p>
 

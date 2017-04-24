@@ -9,6 +9,8 @@ class HomeContainer extends Component {
         <p>Heeft uw team aansturing, verandering of stimulans nodig? Wij hebben daar een beproefde aanpak voor. Ons instructiekader spiegelt het huidige gedrag van uw team en brengt knel- en verbeterpunten in beeld. Op ontspannen actieve wijze koppelen we binnen- en buitenprogramma's aan elkaar. </p>
         <p>Aspecten als leiderschap, samenwerking en communicatie komen naar voren. Kies uw doel dat u wilt bereiken met uw team;  ons instructieteam spiegelt het huidige gedrag en maakt zo verandering binnen uw team mogelijk. Samen met onze trainers,  specialisten van het Korps mariniers zorgen wij voor teambuilding met meerwaarde!</p>
 
+        <div className='page-image teambuilding'/>
+
         <h2>Cursusprogramma</h2>
         <p>Hoe wordt een groep een team, wat zijn de factoren die een succesvol team beïnvloeden, feedback, teamdynamiek, hard werken, hard ontspannen? </p>
 

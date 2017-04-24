@@ -9,6 +9,8 @@ class PraktischLeiderschapContainer extends Component {
         <p>Hoe makkelijk gaat leidinggeven u af? Al heeft u het respect van uw medewerkers, zelfs dan blijkt leidinggeven nog niet eenvoudig te zijn. Het is een taak die u naast uw eigenlijke vak uitoefent. Het draait daarbij onder andere om vaardigheden als communiceren, organiseren, delegeren en motiveren. </p>
         <p>De training Praktisch leidinggeven op de werkvloer biedt u de kans om uw effectiviteit als leidinggevende te optimaliseren De training is praktisch van opzet, met veel aandacht voor uw persoonlijke situatie. U wordt geconfronteerd met het effect van uw gedrag. Gedurende de cursus kunt u “ongestraft” fouten maken. Met oefening, het delen van ervaringen en nieuwe inzichten en ideeën vergroot u uw kennis, flexibiliteit en leidinggevende capaciteiten. Een kans om uw persoonlijke effectiviteit te vergroten.</p>
 
+        <div className='page-image leiderschap'/>
+
       	<h2>Voor wie bedoeld</h2>
         <p>Voor alle leidinggevenden bij bedrijven overheidsinstanties, onderwijsinstellingen.</p>
         <p>Deze training is bestemd voor iedereen die leiding geeft aan een uitvoerende ploeg. U heeft bijvoorbeeld een functie als ploegleider, voorman, teamleider, uitvoerder, chef, et cetera. U geeft leiding aan mensen uit de praktijk, U bent daarbij verantwoordelijk voor de dagelijkse aansturing, werkplanning en teamresultaten. </p>
